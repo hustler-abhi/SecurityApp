@@ -26,7 +26,7 @@ public class UserController {
 	private UserDao udao;
 
 	@Autowired
-	private PasswordEncoder encd;
+	private PasswordEncoder encd ;
 
 	@GetMapping("/msg")
 	public String getmsg() {
